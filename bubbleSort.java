@@ -1,15 +1,3 @@
-/*
-=================================================================
-                    SORTING
-=================================================================
-*/
-
-/*
-    FILE            :   bubbleSort.java  
-    AUTHOR          :   Jordan
-    COMMENTS        :   
-    LAST MODIFY     :   11 August 2017
-*/
 import java.util.*;
 public class bubbleSort
 {
@@ -39,12 +27,9 @@ public static void bubbleSort(int [] numArray)
             {
                 System.out.print(numArray[k]);
                 System.out.print(' ');
-              
             }
-                System.out.println();
-                
-        }
-      
+                System.out.println();       
+        }  
     }
   System.out.print("Sorted numbers " + Arrays.toString(numArray));
 }
