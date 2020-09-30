@@ -14,7 +14,7 @@ public static void bubbleSort(int [] numArray)
 
     for (i = 0; i < n; i++) 
     {
-        for ( j = 1; j < (n - i); j++) 
+        for ( j = 0; j < (n - i)-1; j++) 
         {
 
             if (numArray[j - 1] > numArray[j]) 
